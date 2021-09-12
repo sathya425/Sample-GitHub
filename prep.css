@@ -1,0 +1,27 @@
+.code{
+    color: #660000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.paper{
+    color: #660000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.pen{
+    color: #660000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.pencil{
+    color: black;
+    font-family: Verdana,Arial,Helvetica,sans-serif; 
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+
+}
+.black{
+    color: black;
+    font-family: Verdana,Arial,Helvetica,sans-serif; 
+    font-weight: bold;
+}
