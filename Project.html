@@ -15,7 +15,7 @@
     <P>Conceptually, you start at the root of a tree; the tree probably has some good leaves and some bad leaves, though it may be that the leaves are all good or all bad. You want to get to a good leaf. At each node, beginning with the root, you choose one of its children to move to, and you keep this up until you get to a leaf.</P>
     <p>Suppose you get to a bad leaf. You can <em>backtrack</em> to continue the search for a good leaf by revoking your <em>most recent choice</em>, and trying out the next option in that set of options. If you run out of options, revoke the choice that got you here, and try another choice at that node. If you end up at the root with no options left, there are no good leaves to be found.</p>
     <p>This needs an example.</p>
-    <center><img src="C:\Users\Sathya Moorthy\OneDrive\Desktop\Web Development\treesearch.png" alt="treesearch.png"></center>
+    <center><img src="https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif" alt="treesearch.png"></center>
     <ol>
         <li>Starting at Root, your options are A and B. You choose A.</li>
         <li>At A, your options are C and D. You choose C.</li>
@@ -123,7 +123,7 @@ return false
     <h3>Example: TreeSearch</h3>
     <p>For starters, let's do the simplest possible example of backtracking, which is searching an actual tree. We will also use the simplest kind of tree, a binary tree.</p>
     <p>A <strong>binary tree</strong> is a data structure composed of <strong>nodes</strong>. One node is designated as the <strong>root node</strong>. Each node can reference (point to) zero, one, or two other nodes, which are called its <strong>children</strong>. The children are referred to as the <strong>left child</strong> and/or the ,<strong>right child</strong>. All nodes are reachable (by one or more steps) from the root node, and there are no cycles. For our purposes, although this is not part of the definition of a binary tree, we will say that a node might or might not be a goal node, and will contain its name. The first example in this paper (which we repeat here) shows a binary tree.</p>
-    <center><img src="C:\Users\Sathya Moorthy\OneDrive\Desktop\Web Development\treesearch1.png" alt=treesearch1.png></center>
+    <center><img src="https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif" alt=treesearch1.png></center>
     <p>Here's a definition of the BinaryTree class:</p>
     <pre class="pen">
         public class BinaryTree {

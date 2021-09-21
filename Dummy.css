@@ -1,0 +1,16 @@
+.heading-container{
+    height: 120px;
+    width: 120px;
+    background-color: aquamarine;
+    margin: 8px 12px ;
+    border: black;
+    letter-spacing: 8px;
+    box-shadow: 3px 8px 7px 4px blue;
+}
+.heading-container:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.hello{
+    display: inline;
+}
