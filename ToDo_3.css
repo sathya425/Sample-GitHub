@@ -1,0 +1,111 @@
+.hr{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.task1{
+    border: 1px solid red;
+    border-radius: 15px;
+    margin-top: 200px;
+    box-shadow: 4px 4px 15px grey;
+    height: 350px;
+    width: 360px;
+
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    color: red;
+    font-family: 'Assistant', sans-serif;
+    margin-top: 30px;
+    margin:auto;   
+}   
+.completed-task{
+    color: red;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.pending-task{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: sans-serif;
+}
+.card-container{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    line-height: 0;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 370px;
+    margin-right: 370px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 span {
+    background: #fff;
+    padding: 0 15px;
+    margin-top: 10px;
+  }
+  .left-arrow{
+      margin-left: 700px;
+      color: red;
+      font-size: 50px;
+      margin-top: 100px;
+  }
+  .back{
+      font-family: sans-serif;
+      color: grey;
+      font-size: 40px;
+
+  }
+  .blur{
+      filter: blur(10px);
+  }
+  .card{
+    border: 2px solid red;
+    margin: 300px ;
+    width: 27%;
+    margin-left: 550px;
+    height: 170px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 6px 6px 10px grey ;
+    margin-top: -350px;
+    z-index: 2;
+    
+}
+h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+input{
+    border: 1px solid red;
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px grey;
+    font-family: sans-serif;
+}
+button{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    padding:  7px 15px;
+}
+.done{
+    display: flex;
+}
