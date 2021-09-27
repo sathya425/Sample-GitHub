@@ -1,109 +1,374 @@
-.card{
-    border: 2px solid red;
-    margin: 300px ;
-    width: 27%;
-    margin-left: 550px;
-    height: 170px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 6px 6px 10px grey ;
-    margin-top: -250px;
-    z-index: 2;
-}
-h2{
-    color: red;
-    font-family: sans-serif;
-    font-weight: lighter;
-}
-input{
-    border: 1px solid red;
-    width: 200px;
-    height: 25px;
-    border-radius: 7px;
-    box-shadow: 2px 2px 10px grey;
-    font-family: sans-serif;
-}
-button{
-    margin-top: 20px;
-    background-color: red;
-    color: white;
-    border-radius: 25px;
-    font-size: 20px;
-    padding:  7px 15px;
-}
 .tasks{
     font-weight: bold ;
     font-size: 65px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 380px;
-    margin-top: 115px;
+    margin-left: 500px;
+    margin-top: 100px;
     margin-bottom: 40px;
 
 }
 .lists{
     font-weight: 100;
 }
-.card-container{
+.add-list{
+    font-size:30px; 
+}
+.add-icon{
+    font-size: 30px;
+    font-weight: normal;
+    color:red;
+    border-radius: 60%;
+    padding: 10px;  
+}
+.card{
+    font-family:'Assistant', sans-serif ;
+    color: gray;
+    box-shadow: 5px 5px 10px lightgrey;
+    width:30%;
+    margin-left:500px;
+    margin-right: 400px;
     display: flex;
-    justify-content:space-evenly;
-    margin-right: 350px;
-    margin-left: 350px;
-    margin-top: 20px;
-}
-.hr{
-    margin-left: 50px;
-}
-.task1{
-    border: 1px solid red;
-    border-radius: 15px;
-    margin: auto;
-    box-shadow: 4px 4px 10px grey;
-    height: 350px;
-    width: 225px;
-
-}
-.task2{
-    border: 1px solid red;
+    border:1px solid red;
     border-radius: 10px;
-    margin: auto;
-    box-shadow: 4px 4px 10px grey;
-    height: 350px;
-    width: 225px;
-}
-.task3{
-    border: 1px solid red;
-    border-radius: 10px;
-    margin: auto;
-    box-shadow: 4px 4px 10px grey;
-    height: 350px;
-    width: 225px;
-}
-.heading{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 15px;
-    color: red;
-    font-family: 'Assistant', sans-serif;
-    margin-top: 30px;
-    
-    
-}
-.completed-task{
-    color: red;
-    margin-left: 30px;
-    font-size: 25px;
-    font-family: sans-serif;
-    margin-top: 50px;
-}
-.pending-task{
+    margin-bottom: 30px;
+    padding: 0px 10px;
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: sans-serif;
+    font-weight:normal;
 }
 .blur{
     filter: blur(10px);
 }
+@media (min-width:993px) and (max-width:1205px){
+    .tasks{
+        margin-left:300px;
+        margin-right: 300px;
+    }
+    .card{
+        margin-left:300px;
+        width:40%;
+    }
+}
+@media (min-width:790px) and (max-width:993px){
+    .tasks{
+        font-size:40px;
+        margin-left:250px;
+        margin-right: 250px;
+    }
+    .card{
+        margin-left:250px;
+        width:40%;
+    }
+}
+@media (min-width:670px) and (max-width:790px){
+    .tasks{
+        font-size:38px;
+        margin-left:200px;
+        margin-right: 200px;
+    }
+    .card{
+        margin-left:200px;
+        width:40%;
+    }
+    
+}
+@media (min-width:595px) and (max-width:670px){
+    .tasks{
+        font-size:32px;
+        margin-left:180px;
+        margin-right: 180px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:180px;
+        width:40%;
+    }
+}
+@media (min-width:515px) and (max-width:595px){
+    .tasks{
+        font-size:30px;
+        margin-left:100px;
+        margin-right: 100px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:100px;
+        width:40%;
+    }
+}
+@media (min-width:400px) and (max-width:515px){
+    .tasks{
+        font-size:33px;
+        margin-left:80px;
+        margin-right: 80px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:80px;
+        width:50%;
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+    .tasks{
+        font-size:28px;
+        margin-left:40px;
+        margin-right: 40px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:40px;
+        width:60%;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    .tasks{
+        font-size:23px;
+        margin-left:10px;
+        margin-right: 10px;
+    }
+    .add-list{
+        font-size:20px; 
+    }
+    .card{
+        font-size: 15px;
+        margin-left:10px;
+        width:60%;
+    }
+}
 .done{
     display: flex;
+}
+.newlist{
+    z-index: 2;
+    margin-top: -25%;
+    margin-left:35%;
+    border: 2px solid red;
+    border-radius:10px;
+    box-shadow: 5px 5px 20px lightgrey;
+    width:28%;
+    background-color: white;
+    height: 220px;
+
+}
+.newlist h4{
+    color:red;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+}
+.newlist input{
+    margin-left:40px;
+    margin-right: 80px;
+    border:1px solid red;
+    box-shadow:2px 2px 5px lightgrey;
+    width: 80%;
+    height:30px;
+    border-radius: 10px;
+}
+.newlist button{
+    margin-top: 5%;
+    margin-left:40%;
+    border-radius:20px;
+    background-color: red;
+    color:white;
+    font-size:100%;
+    border:none;
+    padding:5px 20px;
+}
+
+@media(min-width:1300px) and (max-width:1543px){
+    .newlist{
+       margin-top: -30%;
+       margin-left:38%;
+    }
+    .newlist input{
+        margin-right: 20%;
+    }
+}
+@media(min-width:1207px) and (max-width:1300px){
+    .newlist{
+       margin-top: -35%;
+       margin-left:38%;
+    }
+    .newlist input{
+        margin-right: 20%;
+    }
+}
+
+ @media(min-width:1111px) and (max-width:1207px){
+     .newlist{
+        margin-top: -40%;
+        margin-left:35%;
+     }
+     .newlist input{
+         margin-right: 20%;
+     }
+ }
+ @media(min-width:950px) and (max-width:1111px){
+    .newlist{
+       margin-top: -48%;
+       margin-left:35%;
+       width:30% ;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+    }
+
+}
+@media(min-width:850px) and (max-width:950px){
+    .newlist{
+       margin-top: -52%;
+       margin-left:35%;
+       width:30% ;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+    }
+    .newlist button{
+        margin-left: 38%;
+    }
+}
+@media(min-width:750px) and (max-width:850px){
+    .newlist{
+       margin-top: -60%;
+       margin-left:30%;
+       width:40% ;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+    }
+    .newlist button{
+        margin-left: 38%;
+    }
+}
+@media(min-width:640px) and (max-width:750px){
+    .newlist{
+       margin-top: -65%;
+       margin-left:30%;
+       width:40% ;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+    }
+    .newlist button{
+        margin-left: 38%;
+    }
+}
+@media(min-width:560px) and (max-width:640px){
+    .newlist{
+       margin-top: -74%;
+       margin-left:25%;
+       width:43% ;
+    }
+    .newlist input{
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+    .newlist button{
+        margin-left: 35%;
+    }
+    
+}
+@media(min-width:460px) and (max-width:560px){
+    .newlist{
+       margin-top: -90%;
+       margin-left:25%;
+       width:43% ;
+    }
+    .newlist h4{
+        font-size: 20px;
+    }
+    .newlist input{
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+    .newlist button{
+        margin-left: 35%;
+    }
+}
+@media(min-width:390px) and (max-width:460px){
+    .newlist{
+       margin-top: -105%;
+       margin-left:25%;
+       width:50% ;
+    }
+    .newlist h4{
+        font-size: 18px;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+        width:72%;
+        height: 20px;
+    }
+    .newlist button{
+        margin-left: 33%;
+        font-size: 90%;
+    }
+}
+@media(min-width:330px) and (max-width:390px){
+    .newlist{
+       margin-top: -125%;
+       margin-left:25%;
+       width:55% ;
+    }
+    .newlist h4{
+        font-size: 18px;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+        width:72%;
+        height: 17px;
+    }
+    .newlist button{
+        margin-left: 30%;
+        font-size: 80%;
+    }
+}
+@media(min-width:250px) and (max-width:330px){
+    .newlist{
+       margin-top: -150%;
+       margin-left:15%;
+       width:70% ;
+    }
+    .newlist h4{
+        font-size: 18px;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+        width:72%;
+        height: 17px;
+    }
+    .newlist button{
+        margin-left: 30%;
+        font-size: 80%;
+    }
+    
+}
+@media(min-width:200px) and (max-width:250px){
+    .newlist{
+       margin-top: -190%;
+       margin-left:15%;
+       width:75% ;
+    }
+    .newlist h4{
+        font-size: 18px;
+    }
+    .newlist input{
+        margin-left: 12%;
+        margin-right: 25%;
+        width:72%;
+        height: 17px;
+    }
+    .newlist button{
+        margin-left: 28%;
+        font-size: 80%;
+    }
+    
 }

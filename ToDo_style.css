@@ -2,69 +2,132 @@
     font-weight: bold ;
     font-size: 65px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 380px;
-    margin-top: 115px;
+    margin-left: 500px;
+    margin-top: 100px;
     margin-bottom: 40px;
 
 }
 .lists{
     font-weight: 100;
 }
-.card-container{
+.add-list{
+    font-size:30px; 
+}
+.add-icon{
+    font-size: 30px;
+    font-weight: normal;
+    color:red;
+    border-radius: 60%;
+    padding: 10px;  
+}
+.card{
+    font-family:'Assistant', sans-serif ;
+    color: gray;
+    box-shadow: 5px 5px 10px lightgrey;
+    width:30%;
+    margin-left:500px;
+    margin-right: 400px;
     display: flex;
-    justify-content:space-evenly;
-    margin-right: 350px;
-    margin-left: 350px;
-    margin-top: 20px;
-}
-.hr{
-    margin-left: 50px;
-}
-.task1{
-    border: 1px solid red;
-    border-radius: 15px;
-    margin: auto;
-    box-shadow: 4px 4px 10px grey;
-    height: 350px;
-    width: 225px;
-
-}
-.task2{
-    border: 1px solid red;
+    border:1px solid red;
     border-radius: 10px;
-    margin: auto;
-    box-shadow: 4px 4px 10px grey;
-    height: 350px;
-    width: 225px;
-}
-.task3{
-    border: 1px solid red;
-    border-radius: 10px;
-    margin: auto;
-    box-shadow: 4px 4px 10px grey;
-    height: 350px;
-    width: 225px;
-}
-.heading{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 15px;
-    color: red;
-    font-family: 'Assistant', sans-serif;
-    margin-top: 30px;
-    
-    
-}
-.completed-task{
-    color: red;
-    margin-left: 30px;
-    font-size: 25px;
-    font-family: sans-serif;
-    margin-top: 50px;
-}
-.pending-task{
+    margin-bottom: 30px;
+    padding: 0px 10px;
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: sans-serif;
+    font-weight:normal;
+}
+@media (min-width:993px) and (max-width:1205px){
+    .tasks{
+        margin-left:300px;
+        margin-right: 300px;
+    }
+    .card{
+        margin-left:300px;
+        width:40%;
+    }
+}
+@media (min-width:790px) and (max-width:993px){
+    .tasks{
+        font-size:40px;
+        margin-left:250px;
+        margin-right: 250px;
+    }
+    .card{
+        margin-left:250px;
+        width:40%;
+    }
+}
+@media (min-width:670px) and (max-width:790px){
+    .tasks{
+        font-size:38px;
+        margin-left:200px;
+        margin-right: 200px;
+    }
+    .card{
+        margin-left:200px;
+        width:40%;
+    }
+    
+}
+@media (min-width:595px) and (max-width:670px){
+    .tasks{
+        font-size:32px;
+        margin-left:180px;
+        margin-right: 180px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:180px;
+        width:40%;
+    }
+}
+@media (min-width:515px) and (max-width:595px){
+    .tasks{
+        font-size:30px;
+        margin-left:100px;
+        margin-right: 100px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:100px;
+        width:40%;
+    }
+}
+@media (min-width:400px) and (max-width:515px){
+    .tasks{
+        font-size:33px;
+        margin-left:80px;
+        margin-right: 80px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:80px;
+        width:50%;
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+    .tasks{
+        font-size:28px;
+        margin-left:40px;
+        margin-right: 40px;
+    }
+    .card{
+        font-size: 18px;
+        margin-left:40px;
+        width:60%;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    .tasks{
+        font-size:23px;
+        margin-left:10px;
+        margin-right: 10px;
+    }
+    .add-list{
+        font-size:20px; 
+    }
+    .card{
+        font-size: 15px;
+        margin-left:10px;
+        width:60%;
+    }
 }

@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ToDo_3.css">
-    <title>Document</title>
+    <title>Todo List - UX</title>
 </head>
+
 <body>
     <div class="blur">
-        <h1><span>Trip to Paris</span></h1>
-        <div class="left-arrow"><i class="fa fa-arrow-circle-left"></i> <span class="back"> Back</span> </div>
+        <h1 class="paris"><i class="fa fa-arrow-circle-left arrow"></i> Trip to Paris</h1>
         <div class="card-container">
-        <div class="task1"><div class="heading">Trip to Paris</div><hr class="hr"> <p class="completed-task"><del> Completed Task</del></p> <input type="checkbox"><label class="pending-task">Pending Task</label> </div>
+            <div class="cards">
+                <h4>Trip to Paris</h4>
+                <hr>
+                <p class="task-completed">Completed Task</p>
+                <form action="" class="pending-tasks">
+                    <input type="checkbox" name="pending" id="check" style="height:18px; width:18px;">
+                    <label for="check">Pending tasks</label>
+                </form>
+                <p class="font-plus"><i class="fa fa-plus-circle plus-icon"></i></p>
+            </div>
         </div>
     </div>
-    <div class="done">    
-        <div class="card">
-            <h2>Add New Item</h2>
+    <div class="done">
+        <div class="newcard">
+            <h4>Add New Todo</h4>
             <input type="text"><br>
             <button type="buttom">ADD</button>
         </div>
     </div>
-    
+
 </body>
+
 </html>

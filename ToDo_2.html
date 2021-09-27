@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,35 @@
     <title>Todo List - UX</title>
     <link rel="stylesheet" href="ToDo_2.css">
 </head>
+
 <body>
-    <div class="blur"> 
-        <p class=tasks>Tasks <span class="lists">Lists</span></p>
-        <div class="card-container"> 
-            <div class="task1"><div class="heading">Trip to Paris</div><hr class="hr"> <p class="completed-task"><del> Completed Task</del></p> <input type="checkbox"><label class="pending-task">Pending Task</label> </div>
-            <div class="task2"><div class="heading">My Todo List</div><hr class="hr"> <p class="completed-task"><del>  Completed Task</del></p> <input type="checkbox"><label class="pending-task">Pending Task</label>  </div>
-            <div class="task3"><div class="heading">My Todo List</div><hr class="hr"> <p class="completed-task"><del>  Completed Task</del></p> <input type="checkbox"><label class="pending-task">Pending Task</label>  </div>
+    <div class="blur">
+        <p class=tasks>Tasks <span class="lists">Lists</span>
+            <span class="add-list"><i class="fa fa-plus-circle fa-xs add-icon"></i></span>
+        </p>
+        <div class="card">
+            <p>Trip to Paris</p>
+        </div>
+        <div class="card">
+            <p>My Todo List 2</p>
+        </div>
+        <div class="card">
+            <p>My Todo List 3</p>
+        </div>
+        <div class="card">
+            <p>My Todo List 4</p>
+        </div>
+        <div class="card">
+            <p>My Todo List 5</p>
         </div>
     </div>
-    <div class="done">    
-    <div class="card">
-        <h2>Add New List</h2>
-        <input type="text"><br>
-        <button type="buttom">ADD</button>
+    <div class="done">
+        <div class="newlist">
+            <h4>Add New List</h4>
+            <input type="text"><br>
+            <button type="button">ADD</button>
+        </div>
     </div>
-</div>
 </body>
+
 </html>
